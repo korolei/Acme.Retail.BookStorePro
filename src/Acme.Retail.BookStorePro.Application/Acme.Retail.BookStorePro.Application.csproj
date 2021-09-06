@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Acme.Retail.BookStorePro</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Acme.Retail.BookStorePro.Domain\Acme.Retail.BookStorePro.Domain.csproj" />
+    <ProjectReference Include="..\Acme.Retail.BookStorePro.Application.Contracts\Acme.Retail.BookStorePro.Application.Contracts.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.PermissionManagement.Application" Version="4.4.0" />
+    <PackageReference Include="Volo.Abp.FeatureManagement.Application" Version="4.4.0" />
+    <PackageReference Include="Volo.Abp.SettingManagement.Application" Version="4.4.0" />
+    <PackageReference Include="Volo.Chat.Application" Version="4.4.0" />
+    <PackageReference Include="Volo.Docs.Application" Version="4.4.0" />
+    <PackageReference Include="Volo.FileManagement.Application" Version="4.4.0" />
+    <PackageReference Include="Volo.Forms.Application" Version="4.4.0" />
+    <PackageReference Include="Volo.Payment.Admin.Application" Version="4.4.0" />
+    <PackageReference Include="Volo.Payment.Application" Version="4.4.0" />
+    <PackageReference Include="Volo.Saas.Host.Application" Version="4.4.0" />
+    <PackageReference Include="Volo.Abp.AuditLogging.Application" Version="4.4.0" />
+    <PackageReference Include="Volo.Abp.Identity.Pro.Application" Version="4.4.0" />
+    <PackageReference Include="Volo.Abp.IdentityServer.Application" Version="4.4.0" />
+    <PackageReference Include="Volo.Abp.Account.Pro.Public.Application" Version="4.4.0" />
+    <PackageReference Include="Volo.Abp.Account.Pro.Admin.Application" Version="4.4.0" />
+    <PackageReference Include="Volo.Abp.LanguageManagement.Application" Version="4.4.0" />
+    <PackageReference Include="Volo.Abp.TextTemplateManagement.Application" Version="4.4.0" />
+    <PackageReference Include="Volo.Abp.LeptonTheme.Management.Application" Version="4.4.0" />
+    <PackageReference Include="Volo.CmsKit.Pro.Application" Version="4.4.0" />
+  </ItemGroup>
+
+</Project>
