@@ -73,8 +73,6 @@ namespace Acme.Retail.BookStorePro.EntityFrameworkCore
 
                 options.AddRepository<Party, Parties.EfCorePartyRepository>();
 
-                options.AddRepository<Party, Parties.EfCorePartyRepository>();
-
                 options.AddRepository<JudicialCase, JudicialCases.EfCoreJudicialCaseRepository>();
 
                 options.AddRepository<JudicialCaseAttributes, JudicialCaseAttributess.EfCoreJudicialCaseAttributesRepository>();

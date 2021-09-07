@@ -5,6 +5,6 @@ namespace Acme.Retail.BookStorePro.Blazor.Menus
         private const string Prefix = "BookStorePro";
         public const string Home = Prefix + ".Home";
 
-        public const string Parties = Prefix + ".Parties";
+        public const string Docs = Prefix + ".Docs";
     }
 }

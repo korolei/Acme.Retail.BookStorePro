@@ -12,31 +12,31 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Volo.Abp.Emailing" Version="4.4.0" />
-    <PackageReference Include="Volo.Abp.PermissionManagement.Domain.Identity" Version="4.4.0" />
-    <PackageReference Include="Volo.Abp.IdentityServer.Domain" Version="4.4.0" />
-    <PackageReference Include="Volo.Abp.PermissionManagement.Domain.IdentityServer" Version="4.4.0" />
-    <PackageReference Include="Volo.Abp.BackgroundJobs.Domain" Version="4.4.0" />
-    <PackageReference Include="Volo.Abp.AuditLogging.Domain" Version="4.4.0" />
-    <PackageReference Include="Volo.Abp.FeatureManagement.Domain" Version="4.4.0" />
-    <PackageReference Include="Volo.Abp.SettingManagement.Domain" Version="4.4.0" />
-    <PackageReference Include="Volo.Abp.BlobStoring.Database.Domain" Version="4.4.0" />
-    <PackageReference Include="Volo.Abp.Identity.Pro.Domain" Version="4.4.0" />
-    <PackageReference Include="Volo.Abp.LanguageManagement.Domain" Version="4.4.0" />
-    <PackageReference Include="Volo.Abp.LeptonTheme.Management.Domain" Version="4.4.0" />
-    <PackageReference Include="Volo.Chat.Domain" Version="4.4.0" />
-    <PackageReference Include="Volo.Docs.Domain" Version="4.4.0" />
-    <PackageReference Include="Volo.FileManagement.Domain" Version="4.4.0" />
-    <PackageReference Include="Volo.Forms.Domain" Version="4.4.0" />
-    <PackageReference Include="Volo.Payment.Domain" Version="4.4.0" />
-    <PackageReference Include="Volo.Payment.Iyzico.Domain" Version="4.4.0" />
-    <PackageReference Include="Volo.Payment.PayPal.Domain" Version="4.4.0" />
-    <PackageReference Include="Volo.Payment.Payu.Domain" Version="4.4.0" />
-    <PackageReference Include="Volo.Payment.Stripe.Domain" Version="4.4.0" />
-    <PackageReference Include="Volo.Payment.TwoCheckout.Domain" Version="4.4.0" />
-    <PackageReference Include="Volo.Saas.Domain" Version="4.4.0" />
-    <PackageReference Include="Volo.Abp.TextTemplateManagement.Domain" Version="4.4.0" />
-    <PackageReference Include="Volo.CmsKit.Pro.Domain" Version="4.4.0" />
+    <PackageReference Include="Volo.Abp.Emailing" Version="4.4.2" />
+    <PackageReference Include="Volo.Abp.PermissionManagement.Domain.Identity" Version="4.4.2" />
+    <PackageReference Include="Volo.Abp.IdentityServer.Domain" Version="4.4.2" />
+    <PackageReference Include="Volo.Abp.PermissionManagement.Domain.IdentityServer" Version="4.4.2" />
+    <PackageReference Include="Volo.Abp.BackgroundJobs.Domain" Version="4.4.2" />
+    <PackageReference Include="Volo.Abp.AuditLogging.Domain" Version="4.4.2" />
+    <PackageReference Include="Volo.Abp.FeatureManagement.Domain" Version="4.4.2" />
+    <PackageReference Include="Volo.Abp.SettingManagement.Domain" Version="4.4.2" />
+    <PackageReference Include="Volo.Abp.BlobStoring.Database.Domain" Version="4.4.2" />
+    <PackageReference Include="Volo.Abp.Identity.Pro.Domain" Version="4.4.2" />
+    <PackageReference Include="Volo.Abp.LanguageManagement.Domain" Version="4.4.2" />
+    <PackageReference Include="Volo.Abp.LeptonTheme.Management.Domain" Version="4.4.2" />
+    <PackageReference Include="Volo.Chat.Domain" Version="4.4.2" />
+    <PackageReference Include="Volo.Docs.Domain" Version="4.4.2" />
+    <PackageReference Include="Volo.FileManagement.Domain" Version="4.4.2" />
+    <PackageReference Include="Volo.Forms.Domain" Version="4.4.2" />
+    <PackageReference Include="Volo.Payment.Domain" Version="4.4.2" />
+    <PackageReference Include="Volo.Payment.Iyzico.Domain" Version="4.4.2" />
+    <PackageReference Include="Volo.Payment.PayPal.Domain" Version="4.4.2" />
+    <PackageReference Include="Volo.Payment.Payu.Domain" Version="4.4.2" />
+    <PackageReference Include="Volo.Payment.Stripe.Domain" Version="4.4.2" />
+    <PackageReference Include="Volo.Payment.TwoCheckout.Domain" Version="4.4.2" />
+    <PackageReference Include="Volo.Saas.Domain" Version="4.4.2" />
+    <PackageReference Include="Volo.Abp.TextTemplateManagement.Domain" Version="4.4.2" />
+    <PackageReference Include="Volo.CmsKit.Pro.Domain" Version="4.4.2" />
   </ItemGroup>
 
 </Project>

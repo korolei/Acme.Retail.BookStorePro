@@ -94,14 +94,17 @@ namespace Acme.Retail.BookStorePro.Blazor.Menus
             //Administration->Settings
             administration.SetSubItemOrder(SettingManagementMenus.GroupName, 6);
 
-            context.Menu.AddItem(
-                new ApplicationMenuItem(
-                    BookStoreProMenus.Parties,
-                    l["Menu:Parties"],
-                    url: "/parties",
-                    icon: "fa fa-file-alt",
-                    requiredPermissionName: BookStoreProPermissions.Parties.Default)
-            );
+            //context.Menu.AddItem(
+            //    new ApplicationMenuItem(
+            //        BookStoreProMenus.Parties,
+            //        l["Menu:Parties"],
+            //        url: "/parties",
+            //        icon: "fa fa-file-alt",
+            //        requiredPermissionName: BookStoreProPermissions.Parties.Default)
+            //);
+
+            context.Menu.Items.Add(new ApplicationMenuItem(BookStoreProMenus.Docs, l["Menu:Docs"], "/Documents"));
+
             return Task.CompletedTask;
         }
     }
